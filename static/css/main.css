@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.content-table td{
+    padding: 10px;
+
+}
+
+.content-table, .content-table td, .content-table th {
+    border: 1px solid;
+} 
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transition: all 0.8s
+}
+
+.btn.btn-update {
+    background-color: orange;
+}
+.btn.btn-delete {
+    background-color: red;
+}
+
+.btn.btn-update:hover {
+    background-color: rgb(189, 118, 13);
+}
+.btn.btn-delete:hover {
+    background-color: rgb(151, 9, 9);
+}
+
+.btn-submit {
+    background-color: rgb(65, 187, 82);
+    border: none;
+}
